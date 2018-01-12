@@ -131,7 +131,7 @@ QMap<QString, QString> MainWindow::get_todos_ordered_by_uuid() {
       ui->filter->setStyleSheet(QString::fromUtf8(""));
       if (QDateTime(todo.date, todo.time) <=
           QDateTime(ui->date_filter->date(), QTime::currentTime())) {
-        QString index = QString::number(todo.priority) + "|" +
+        QString index = QString::number(todo.priority) + "|" + todo.subject +
                         todo.date.toString() + "|" + todo.uuid;
         order_uuid[index] = todo.uuid;
       }
