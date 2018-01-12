@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>999</width>
-    <height>540</height>
+    <width>1198</width>
+    <height>549</height>
    </rect>
   </property>
   <property name="font">
@@ -314,13 +314,13 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>999</width>
-     <height>18</height>
+     <width>1198</width>
+     <height>30</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuNew_todo">
     <property name="title">
-     <string>File</string>
+     <string>Fi&amp;le</string>
     </property>
     <addaction name="actionNew_todo"/>
     <addaction name="actionDelete_todo"/>
@@ -332,7 +332,7 @@
    </widget>
    <widget class="QMenu" name="menuNavigate">
     <property name="title">
-     <string>navigate</string>
+     <string>&amp;navigate</string>
     </property>
     <addaction name="actionUp"/>
     <addaction name="actionDown"/>
@@ -342,7 +342,7 @@
    </widget>
    <widget class="QMenu" name="menuModif">
     <property name="title">
-     <string>modif</string>
+     <string>&amp;modif</string>
     </property>
     <addaction name="actionUp_priority"/>
     <addaction name="actionDown_priority"/>
@@ -356,7 +356,7 @@
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionNew_todo">
    <property name="text">
-    <string>new todo</string>
+    <string>&amp;new todo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+N</string>
@@ -364,7 +364,7 @@
   </action>
   <action name="actionDelete_todo">
    <property name="text">
-    <string>delete todo</string>
+    <string>&amp;delete todo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Alt+D</string>
@@ -372,7 +372,7 @@
   </action>
   <action name="actionSave">
    <property name="text">
-    <string>save</string>
+    <string>&amp;save</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
@@ -380,12 +380,12 @@
   </action>
   <action name="actionLoad">
    <property name="text">
-    <string>reload</string>
+    <string>&amp;reload</string>
    </property>
   </action>
   <action name="actionUp">
    <property name="text">
-    <string>up</string>
+    <string>&amp;up</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Up</string>
@@ -393,7 +393,7 @@
   </action>
   <action name="actionDown">
    <property name="text">
-    <string>down</string>
+    <string>&amp;down</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Down</string>
@@ -401,7 +401,7 @@
   </action>
   <action name="actionOrder">
    <property name="text">
-    <string>order</string>
+    <string>&amp;order</string>
    </property>
    <property name="shortcut">
     <string>Esc</string>
@@ -409,7 +409,7 @@
   </action>
   <action name="actionGoto_subject">
    <property name="text">
-    <string>goto subject</string>
+    <string>&amp;goto subject</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Alt+Tab</string>
@@ -417,7 +417,7 @@
   </action>
   <action name="actionUp_priority">
    <property name="text">
-    <string>up priority</string>
+    <string>&amp;up priority</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+P</string>
@@ -425,7 +425,7 @@
   </action>
   <action name="actionDown_priority">
    <property name="text">
-    <string>down priority</string>
+    <string>&amp;down priority</string>
    </property>
    <property name="shortcut">
     <string>Alt+P</string>
@@ -433,7 +433,7 @@
   </action>
   <action name="actionGoto_filter">
    <property name="text">
-    <string>goto filter</string>
+    <string>goto &amp;filter</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+F</string>
@@ -441,7 +441,7 @@
   </action>
   <action name="actionInsert_date">
    <property name="text">
-    <string>insert date</string>
+    <string>&amp;insert date</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Space</string>
